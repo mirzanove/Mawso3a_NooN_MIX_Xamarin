@@ -1,0 +1,8 @@
+C:\Users\mirza\Downloads\SplashScreen\SplashActivity\obj\Release\90\android\assets\SplashScreen.dll
+C:\Users\mirza\Downloads\SplashScreen\SplashActivity\obj\Release\90\android\assets\Java.Interop.dll
+C:\Users\mirza\Downloads\SplashScreen\SplashActivity\obj\Release\90\android\assets\Mono.Android.dll
+C:\Users\mirza\Downloads\SplashScreen\SplashActivity\obj\Release\90\android\assets\mscorlib.dll
+C:\Users\mirza\Downloads\SplashScreen\SplashActivity\obj\Release\90\android\assets\System.Core.dll
+C:\Users\mirza\Downloads\SplashScreen\SplashActivity\obj\Release\90\android\assets\System.dll
+C:\Users\mirza\Downloads\SplashScreen\SplashActivity\obj\Release\90\android\assets\XWalk.Binding.dll
+C:\Users\mirza\Downloads\SplashScreen\SplashActivity\obj\Release\90\android\assets\System.Runtime.Serialization.dll

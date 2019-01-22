@@ -21,7 +21,9 @@ namespace com.xamarin.sample.splashscreen
             private XWalkUpdater mXWalkUpdater;
             private Org.Xwalk.Core.XWalkView xwv;
 
-            protected override void OnCreate(Bundle bundle)
+        AppPreferences hh;
+
+        protected override void OnCreate(Bundle bundle)
             {
                 base.OnCreate(bundle);
 
@@ -34,8 +36,10 @@ namespace com.xamarin.sample.splashscreen
 
                 xwv = (Org.Xwalk.Core.XWalkView)FindViewById(Resource.Id.xwalkview);
 
-           
-            }
+                hh = new AppPreferences(this);
+
+
+        }
 
             public void OnXWalkInitCompleted()
             {
@@ -43,8 +47,9 @@ namespace com.xamarin.sample.splashscreen
                 {
                     mXWalkUpdater.DismissDialog();
                 }
-                xwv.Load("file:///android_asset/index.html", null);
 
+                xwv.LoadUrl(hh.getAccessKey("SP_WEBVIEW_PREFS", "file:///android_asset/index.html"), null);
+           
                 MainActivity.fa.Finish();
 
             //throw new NotImplementedException();

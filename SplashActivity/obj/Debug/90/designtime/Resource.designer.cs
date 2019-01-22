@@ -369,7 +369,10 @@ namespace com.xamarin.sample.splashscreen
 			public const int top_view = 2131296290;
 			
 			// aapt resource value: 0x7F030002
-			public const int xwalkview = 2130903042;
+			public const int WV = 2130903042;
+			
+			// aapt resource value: 0x7F030003
+			public const int xwalkview = 2130903043;
 			
 			// aapt resource value: 0x7F090021
 			public const int year = 2131296289;

@@ -113,11 +113,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int verify_checkmark=0x7f020013;
     }
     public static final class id {
+        public static final int WV=0x7f090028;
         public static final int ampm=0x7f09001e;
         public static final int arrow_image=0x7f090025;
         public static final int autofill_keyboard_accessory_item_label=0x7f090002;
         public static final int autofill_keyboard_accessory_item_sublabel=0x7f090003;
-        public static final int color_button_swatch=0x7f090029;
+        public static final int color_button_swatch=0x7f09002a;
         public static final int color_picker_advanced=0x7f090008;
         public static final int color_picker_simple=0x7f090009;
         public static final int date_picker=0x7f09000f;
@@ -147,13 +148,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int second_colon=0x7f09001a;
         public static final int second_dot=0x7f09001c;
         public static final int seek_bar=0x7f090007;
-        public static final int select_action_menu_copy=0x7f09002b;
-        public static final int select_action_menu_cut=0x7f09002a;
-        public static final int select_action_menu_paste=0x7f09002c;
-        public static final int select_action_menu_select_all=0x7f09002e;
-        public static final int select_action_menu_share=0x7f09002d;
-        public static final int select_action_menu_text_processing_menus=0x7f09002f;
-        public static final int select_action_menu_web_search=0x7f090030;
+        public static final int select_action_menu_copy=0x7f09002c;
+        public static final int select_action_menu_cut=0x7f09002b;
+        public static final int select_action_menu_paste=0x7f09002d;
+        public static final int select_action_menu_select_all=0x7f09002f;
+        public static final int select_action_menu_share=0x7f09002e;
+        public static final int select_action_menu_text_processing_menus=0x7f090030;
+        public static final int select_action_menu_web_search=0x7f090031;
         public static final int selected_color_view=0x7f09000e;
         public static final int selected_color_view_border=0x7f09000d;
         public static final int sub_text=0x7f090027;
@@ -162,7 +163,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int time_picker=0x7f090010;
         public static final int title=0x7f09000c;
         public static final int top_view=0x7f090022;
-        public static final int xwalkview=0x7f090028;
+        public static final int xwalkview=0x7f090029;
         public static final int year=0x7f090021;
     }
     public static final class layout {

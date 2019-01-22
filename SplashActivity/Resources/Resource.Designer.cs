@@ -227,6 +227,9 @@ namespace com.xamarin.sample.splashscreen
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f090028
+			public const int WV = 2131296296;
+			
 			// aapt resource value: 0x7f09001e
 			public const int ampm = 2131296286;
 			
@@ -239,8 +242,8 @@ namespace com.xamarin.sample.splashscreen
 			// aapt resource value: 0x7f090003
 			public const int autofill_keyboard_accessory_item_sublabel = 2131296259;
 			
-			// aapt resource value: 0x7f090029
-			public const int color_button_swatch = 2131296297;
+			// aapt resource value: 0x7f09002a
+			public const int color_button_swatch = 2131296298;
 			
 			// aapt resource value: 0x7f090008
 			public const int color_picker_advanced = 2131296264;
@@ -323,26 +326,26 @@ namespace com.xamarin.sample.splashscreen
 			// aapt resource value: 0x7f090007
 			public const int seek_bar = 2131296263;
 			
-			// aapt resource value: 0x7f09002b
-			public const int select_action_menu_copy = 2131296299;
-			
-			// aapt resource value: 0x7f09002a
-			public const int select_action_menu_cut = 2131296298;
-			
 			// aapt resource value: 0x7f09002c
-			public const int select_action_menu_paste = 2131296300;
+			public const int select_action_menu_copy = 2131296300;
 			
-			// aapt resource value: 0x7f09002e
-			public const int select_action_menu_select_all = 2131296302;
+			// aapt resource value: 0x7f09002b
+			public const int select_action_menu_cut = 2131296299;
 			
 			// aapt resource value: 0x7f09002d
-			public const int select_action_menu_share = 2131296301;
+			public const int select_action_menu_paste = 2131296301;
 			
 			// aapt resource value: 0x7f09002f
-			public const int select_action_menu_text_processing_menus = 2131296303;
+			public const int select_action_menu_select_all = 2131296303;
+			
+			// aapt resource value: 0x7f09002e
+			public const int select_action_menu_share = 2131296302;
 			
 			// aapt resource value: 0x7f090030
-			public const int select_action_menu_web_search = 2131296304;
+			public const int select_action_menu_text_processing_menus = 2131296304;
+			
+			// aapt resource value: 0x7f090031
+			public const int select_action_menu_web_search = 2131296305;
 			
 			// aapt resource value: 0x7f09000e
 			public const int selected_color_view = 2131296270;
@@ -368,8 +371,8 @@ namespace com.xamarin.sample.splashscreen
 			// aapt resource value: 0x7f090022
 			public const int top_view = 2131296290;
 			
-			// aapt resource value: 0x7f090028
-			public const int xwalkview = 2131296296;
+			// aapt resource value: 0x7f090029
+			public const int xwalkview = 2131296297;
 			
 			// aapt resource value: 0x7f090021
 			public const int year = 2131296289;

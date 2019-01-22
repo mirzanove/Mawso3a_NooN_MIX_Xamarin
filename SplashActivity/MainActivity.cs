@@ -51,7 +51,7 @@ namespace com.xamarin.sample.splashscreen
             if (currentapiVersion >= 19)
             {
                
-                if (hh.getAccessKey("PREFERENCE_WEBVIEW_TYPE").Equals("null"))
+                if (hh.getAccessKey("PREFERENCE_WEBVIEW_TYPE","null").Equals("null"))
                 {
 
                     getdiag(hh);
@@ -60,7 +60,7 @@ namespace com.xamarin.sample.splashscreen
                 else
                 {
 
-                    if (hh.getAccessKey("PREFERENCE_WEBVIEW_TYPE").Equals("notCross"))
+                    if (hh.getAccessKey("PREFERENCE_WEBVIEW_TYPE","null").Equals("notCross"))
                     {
                         StartActivity(new Intent(Application.Context, typeof(WvActivity)).AddFlags(ActivityFlags.NoAnimation));
 
@@ -120,6 +120,7 @@ namespace com.xamarin.sample.splashscreen
                     Toast.MakeText(this, "notCross ", ToastLength.Short).Show();
 
                     hh.saveAccessKey("notCross", "PREFERENCE_WEBVIEW_TYPE");
+                    StartActivity(new Intent(Application.Context, typeof(WvActivity)).AddFlags(ActivityFlags.NoAnimation));
 
                 }
                 else
@@ -173,9 +174,9 @@ namespace com.xamarin.sample.splashscreen
             mPrefsEditor.Commit();
         }
 
-        public string getAccessKey(String PREFERENCE_ACCESS_KEY)
+        public string getAccessKey(String PREFERENCE_ACCESS_KEY , String def)
         {
-            return mSharedPrefs.GetString(PREFERENCE_ACCESS_KEY, "null");
+            return mSharedPrefs.GetString(PREFERENCE_ACCESS_KEY, def);
         }
     }
 }
